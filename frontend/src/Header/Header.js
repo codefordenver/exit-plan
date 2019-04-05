@@ -4,9 +4,7 @@ import Nav from '../Nav/Nav.js';
 const Header = () => {
   return (
     <header>
-      <div className="logo-container" role="logo container">
-        <img src="public/images/mock-logo.png" alt="Exit Plan Logo"/>
-      </div>
+      <h1>Exit Plan</h1>
       <Nav/>
     </header>
   )
