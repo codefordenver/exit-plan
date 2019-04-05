@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../Nav/Nav.js';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <div className="logo-container" role="logo container">
@@ -11,3 +11,5 @@ export const Header = () => {
     </header>
   )
 };
+
+export default Header;

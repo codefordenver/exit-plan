@@ -2,7 +2,7 @@ import React from 'react';
 
 const navFilters = ['HOME', 'ABOUT', 'RESOURCES', 'ARTICLES', 'CONTACT'];
 
-export const Nav = () => {
+const Nav = () => {
   const filterList = navFilters.map(filter => (<li>filter</li>))
   return(
     <nav>
@@ -12,3 +12,5 @@ export const Nav = () => {
     </nav>
   )
 };
+
+export default Nav;
