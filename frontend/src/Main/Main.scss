@@ -1,0 +1,9 @@
+@import '../index.scss'; 
+
+main {
+  background-color: $off-white; 
+  height: 900px; 
+  display: flex; 
+  flex: 1;
+  justify-content: space-between; 
+}
