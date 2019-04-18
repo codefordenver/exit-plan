@@ -4,8 +4,16 @@ footer {
   background-color: $dark-blue; 
   height: 200px; 
   display: flex; 
+  flex-direction: row;
   justify-content: space-between; 
+  color: $off-white;
 }
 
+.footer-location {
+  width: 200px;
+}
 
+.footer-links {
+  width: 200px;
+}
 
