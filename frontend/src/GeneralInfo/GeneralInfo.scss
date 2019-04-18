@@ -1,0 +1,41 @@
+@import '../index.scss';
+
+.primary-logo {
+  padding: 8px; 
+  margin: 12px; 
+}
+
+.text-video-container {
+  display: flex; 
+  justify-content: space-between; 
+  margin: 0 20px; 
+}
+
+h1 {
+  font-family: Helvetica, sans-serif; 
+  font-size: 3rem; 
+  font-weight: 500; 
+  color: $dark-blue; 
+}
+
+p {
+  font-family: Helvetica, sans-serif; 
+  font-size: 1.5rem; 
+  line-height: 1.5; 
+  color: $dark-blue; 
+}
+
+.lead-text {
+  margin-bottom: 20px; 
+}
+
+.left-container {
+  height: 300px; 
+  width: 500px; 
+}
+.right-container {
+  height: 200px; 
+  width: 400px; 
+  border: 3px solid $dark-blue; 
+}
+
