@@ -5,9 +5,9 @@ import './Header.scss';
 const Header = () => {
   return (
     <header>
-      <div role="logo-container" className="header-logo-container">
+      <article className="header-logo-container">
         <img className="header-logo" src="./assets/Exit_Plan-SecondaryLogo.svg" alt="exit plan logo"/>
-      </div>
+      </article>
       <Nav/>
     </header>
   )
