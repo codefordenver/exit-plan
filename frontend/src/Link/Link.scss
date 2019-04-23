@@ -1,0 +1,8 @@
+@import '../index.scss'; 
+
+.link {
+  background-color: $light-blue; 
+  display: flex; 
+  justify-content: space-between; 
+  height: 300px;
+}

@@ -1,0 +1,20 @@
+@import '../index.scss'; 
+
+.intro {
+  background-color: $off-white; 
+  display: flex; 
+  justify-content: space-between; 
+  height: 300px;
+  flex-direction: row;
+  font-family: Helvetica, sans-serif; 
+}
+
+.intro-text {
+  width: 50%;
+  background: green;
+}
+
+.intro-video {
+  width: 50%;
+  background: purple;
+}

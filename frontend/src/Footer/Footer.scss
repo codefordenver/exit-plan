@@ -1,0 +1,33 @@
+@import '../index.scss'; 
+
+footer {
+  background-color: $dark-blue; 
+  height: 100px; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+  color: $off-white;
+  align-items: center;
+  font-family: Helvetica, sans-serif; 
+}
+
+.footer-location {
+  width: 125px;
+  margin-left: 20px;
+}
+
+.footer-links {
+  width: 125px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+p, a {
+  font-size: 12px;
+}
+
