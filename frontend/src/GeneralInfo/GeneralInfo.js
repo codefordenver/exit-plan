@@ -4,7 +4,7 @@ import './GeneralInfo.scss';
 const GeneralInfo = () => {
   return (
     <section className="general-info-container">
-      <object className="primary-logo" data="./assets/Exit_Plan-Logo.svg" alt="primary exit plan logo" height="750" width="750">
+      <object className="primary-logo" data="./assets/Exit_Plan-Logo.svg" alt="primary exit plan logo" height="1000" width="1000">
       </object>
       <div role="secondary container for general info" className="text-video-container">
           <article className="left-container">
